@@ -41,3 +41,18 @@ Eksperimen pemodelan dilakukan di notebook `Modeling.ipynb` dengan fokus penguji
 ├── heart_statlog_cleveland_hungary_final.csv                     # Dataset Mentah (Raw)
 ├── heart_statlog_cleveland_hungary_final_cleaned.csv             # Dataset Hasil Preprocessing
 └── README.md                                                      # Dokumentasi Proyek
+```
+
+## 🚀 Cara Menjalankan Proyek
+1. Clone repositori ini ke komputer lokal Anda:
+```bash
+git clone [https://github.com/username-anda/nama-repo-anda.git](https://github.com/username-anda/nama-repo-anda.git)
+```
+2. Pastikan pustaka (library) utama Python sudah terinstal di lingkungan Anda:
+``` bash
+pip install pandas numpy scikit-learn matplotlib seaborn
+```
+3. Jalankan Jupyter Notebook dan buka berkas secara berurutan:
+* Selesaikan tahap `Data Preprocessing (Data Cleaning, Feature Engineering).ipynb` terlebih dahulu untuk menghasilkan dataset yang bersih.
+
+* Lanjutkan ke tahap `Modeling.ipynb` untuk melihat proses pelatihan model, visualisasi performa antar fold, dan hasil akhir evaluasi model.
